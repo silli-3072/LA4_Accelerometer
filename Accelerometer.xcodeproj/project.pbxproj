@@ -13,6 +13,10 @@
 		82394B8B28B24B9E005957FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82394B8928B24B9E005957FD /* Main.storyboard */; };
 		82394B8D28B24B9F005957FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82394B8C28B24B9F005957FD /* Assets.xcassets */; };
 		82394B9028B24B9F005957FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82394B8E28B24B9F005957FD /* LaunchScreen.storyboard */; };
+		82394B9A28B24BBA005957FD /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 82394B9828B24BBA005957FD /* awa.png */; };
+		82394B9B28B24BBA005957FD /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 82394B9928B24BBA005957FD /* suiheiki.png */; };
+		82394B9D28B2507D005957FD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82394B9C28B2507D005957FD /* GameViewController.swift */; };
+		82394B9F28B250A2005957FD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82394B9E28B250A2005957FD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		82394B8C28B24B9F005957FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82394B8F28B24B9F005957FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82394B9128B24B9F005957FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82394B9828B24BBA005957FD /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		82394B9928B24BBA005957FD /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		82394B9C28B2507D005957FD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		82394B9E28B250A2005957FD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,12 @@
 		82394B8228B24B9E005957FD /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				82394B9728B24BBA005957FD /* Accelerometer-素材 */,
 				82394B8328B24B9E005957FD /* AppDelegate.swift */,
 				82394B8528B24B9E005957FD /* SceneDelegate.swift */,
 				82394B8728B24B9E005957FD /* ViewController.swift */,
+				82394B9C28B2507D005957FD /* GameViewController.swift */,
+				82394B9E28B250A2005957FD /* ResultViewController.swift */,
 				82394B8928B24B9E005957FD /* Main.storyboard */,
 				82394B8C28B24B9F005957FD /* Assets.xcassets */,
 				82394B8E28B24B9F005957FD /* LaunchScreen.storyboard */,
@@ -66,6 +77,15 @@
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
+		};
+		82394B9728B24BBA005957FD /* Accelerometer-素材 */ = {
+			isa = PBXGroup;
+			children = (
+				82394B9828B24BBA005957FD /* awa.png */,
+				82394B9928B24BBA005957FD /* suiheiki.png */,
+			);
+			path = "Accelerometer-素材";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -127,7 +147,9 @@
 			files = (
 				82394B9028B24B9F005957FD /* LaunchScreen.storyboard in Resources */,
 				82394B8D28B24B9F005957FD /* Assets.xcassets in Resources */,
+				82394B9B28B24BBA005957FD /* suiheiki.png in Resources */,
 				82394B8B28B24B9E005957FD /* Main.storyboard in Resources */,
+				82394B9A28B24BBA005957FD /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82394B9F28B250A2005957FD /* ResultViewController.swift in Sources */,
+				82394B9D28B2507D005957FD /* GameViewController.swift in Sources */,
 				82394B8828B24B9E005957FD /* ViewController.swift in Sources */,
 				82394B8428B24B9E005957FD /* AppDelegate.swift in Sources */,
 				82394B8628B24B9E005957FD /* SceneDelegate.swift in Sources */,
